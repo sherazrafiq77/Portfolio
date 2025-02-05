@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#DA373D',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="h-screen w-full ">
+        <div class="px-36 w-full py-5  border border-b-black flex items-center">
+            <div class="flex justify-between w-full">
+                <div class="text-black  text-4xl font-sans font-bold ">
+                    <h1> Sheraz</h1>
+                </div>
+                <div class="text-2xl flex justify-end w-[70%] gap-12 ">
+                    <div class="font-sans  font-normal">
+                        <h2>Home</h2>
+                    </div>
+                    <div>
+                        <h3>About</h3>
+                    </div>
+                    <div>
+                        <h3>Skill</h3>
+                    </div>
+                    <div>
+                        <h1>Project</h1>
+                    </div>
+                    <div>
+                        <h1>contact</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" bg-[#EBFEFF] h-screen">
+            <div class=" px-36 h-full">
+                <div class="h-full w-full flex ">
+                    <div class="h-full w-[50%]  flex flex-col justify-center ">
+                        <div class="text-[#6695AE] mb-2 font-sans">
+                            <h1>Hi Everyone,I am </h1>
+                        </div>
+                        <div class="font-bold text-3xl mb-2 font-sans   ">
+                            <h1>Sheraz Rafiq</h1>
+                        </div>
+                        <div class="text-black">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quibusdam praesentium
+                            laudantium,
+                            rem quasi fugiat eligendi in dicta velit odit.
+                        </div>
+                        <div class="mt-6 flex gap-4">
+                            <button
+                                class="bg-[#DBF1F5] py-2 px-6 rounded-sm transition-all  hover:bg-[#477C9B] border border-[#598AA6]  text-sm font-sans">
+                                Download CV <i class="ri-download-cloud-2-line"></i>
+                            </button>
+                            <button
+                                class="bg-[#DBF1F5] py-2 px-6 rounded-sm  transition-all hover:bg-[#477C9B] border border-[#598AA6] text-sm font-sans">
+                                Explore More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="h-full w-full flex justify-end items-center">
+                        <div class="h-[55%] w-[50%] bg-black   relative rounded-3xl ">
+                            <div class="h-full w-full">
+                                <img class="absolute   my-0.5 -top-36  " src="./gallery/IMG_3777-removebg-preview.png"
+                                    alt="" srcset="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="h-screen w-full">
+            <div class="h-full w-full flex ">
+                <div class="h-full w-[50%]">
+                    <div class="h-full w-full flex items-center">
+                        <img class="h-[70%] w-full"
+                            src="data:image/png;base64,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"
+                            alt="" srcset="">
+                    </div>
+
+                </div>
+                <div class="h-full w-[50%] flex items-center">
+                    <div>
+                        <div class="text-xl text-[#457B9D] mb-1 font-semibold ">
+                            <h1>About</h1>
+
+                        </div>
+                        <div class="text-4xl text-black mb-2  font-semibold">
+                            <h1>About me ?</h1>
+
+
+                        </div>
+                        <div class="text-xl text-black ">
+                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore a,
+                                reprehenderit officiis quibusdam et molestiae. Nihil explicabo odio maiores delectus,
+                                dicta, voluptatum labore qui incidunt odit quos iusto alias nulla eveniet corporis
+                                doloremque voluptatibus, similique eos cum blanditiis placeat totam nesciunt quo?
+                                Ducimus nulla explicabo quod deserunt earum id quo laudantium voluptates eos nobis,
+                                incidunt, soluta dolorum enim assumenda.,.</h1>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="h-screen w-full">
+            <div class="h-full flex items-center justify-center w-full bg-[#EBFEFF] ">
+                <div class="h-[70%] w-[70%] bg-black ">
+                    <div class="h-full w-full bg-[#EBFEFF]  ">
+                        <div class="flex justify-center flex-col items-center">
+                            <div class="text-[#457B9D] text-4xl mb-3 font-sans font-semibold">
+                                <h1>Skills</h1>
+                            </div>
+                            <div class="text-6xl mb-8 font-sans font font-semibold">
+                                <h1> what i am capbable of?</h1>
+                            </div>
+                            <div class="h-full w-full">
+                                <div class="flex justify-around h-full w-full">
+                                    <div class="w-full h-full ">
+                                        <img class=" w-[60%]  " src="./gallery/logo_html 1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="h-full w-full">
+                                        <img class="w-[58%] " src="./gallery/CSS-Logo 1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="h-full w-full">
+                                        <img class="w-[60%]" src="./gallery/bootstrap-logo 1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="h-full w-full">
+                                        <img class=" w-[80%]" src="./gallery/tailwindcss-logo 1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="h-full w-full">
+                                        <img class="w-[90%]" src="./gallery/php_PNG31 1 (1).png" alt="">
+                                    </div>
+                                    <div class="h-full translate-x-3  -translate-y-8 w-full">
+                                        <img class="w-[70%] h-full" src="./gallery/laravel-logo 1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-screen w-full px-36">
+            <div class="h-full w-full">
+                <div class="h-full w-full">
+                    <div class="h-[45%] w-[full] flex flex-col items-center">
+                        <div class="text-4xl font-sans font-semibold pt-24">
+                            <h1>Projects</h1>
+                        </div>
+                        <div class="text-5xl font-sans font-semibold pt-6">
+                            <h1> What I have Made?</h1>
+                        </div>
+                    </div>
+                    <div class="h-full w-full ">
+                        <div class="h-[50%] w-[30%] bg-black">
+                            <div class="h-[90%] w-full">
+                                <img src="./gallery/CSS-Logo 1.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
